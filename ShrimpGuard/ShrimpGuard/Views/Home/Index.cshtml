@@ -1,8 +1,105 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Trang chủ";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" href="/components/Home/style.css" />
+</head>
+
+<body>
+    <!-- HomePage -->
+        <div class="container py-2">
+            <section>
+                <div class="row align-items-center">
+                    <!-- Left Content -->
+                    <div class="col-lg-7 col-md-8 col-sm-12">
+                        <div class="content-left text-lg-start text-center">
+                            <h1 class="content-left-header text-center mb-2 fw-bold">
+                                CTY TNHH CHRIMEX
+                            </h1>
+                            <p class="content-left-description text-center mb-2">
+                                Chúng tôi cung cấp các thông tin chi tiết về các loại bệnh phổ biến trên tôm, từ các
+                                triệu chứng ban đầu đến các biện pháp
+                                phòng ngừa và điều trị hiệu quả. Bên cạnh đó, chúng tôi còn chia sẻ những nghiên cứu mới
+                                nhất và các lời khuyên từ chuyên gia
+                                trong ngành nuôi trồng thủy sản để giúp bà con nuôi tôm nắm bắt kịp thời tình hình, bảo
+                                vệ đàn tôm của mình khỏi dịch bệnh,
+                                nâng cao hiệu quả sản xuất và đảm bảo sự phát triển bền vững trong ngành nuôi tôm.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Right Content -->
+                    <div class="col-lg-5 col-md-4 col-sm-12 text-center mt-4 mt-md-0">
+                        <div class="content-right">
+                            <img src="/img/logo.png" alt="Image" class="img-fluid rounded enlarged-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="text-uppercase text-danger">
+                    <h3 class="fw-bold">Cập nhật bệnh mới nhất</h3>
+                    <hr class="line">
+                </div>
+                <div class="cards-wrapper">
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="/img/domtrang.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bệnh đốm trắng</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                                <p class="card-text createAt"> Cập nhật ngày 18.10.2024</p>
+                            <a href="#" class="btn">Xem ngay</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="/img/domden.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bệnh đốm đen</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                                <p class="createAt"> Cập nhật ngày 18.10.2024</p>
+                            <a href="#" class="btn">Xem ngay</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="/img/phantrang.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bệnh phân trắng</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                                <p class="createAt"> Cập nhật ngày 18.10.2024</p>
+                            <a href="#" class="btn">Xem ngay</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-wrapper">
+                            <img src="/img/hoaitu.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bệnh hoại tử cơ</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <p class="createAt"> Cập nhật ngày 18.10.2024</p>
+                            <a href="#" class="btn">Xem ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+</body>
+<!-- Script -->
+
+</html

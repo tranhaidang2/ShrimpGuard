@@ -7,23 +7,135 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ShrimpGuard.styles.css" asp-append-version="true" />
+
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ShrimpGuard</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+    <header class="sticky-top">
+        <div class="superNav border-bottom py-2 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 centerOnMobile">
+                        <select class="me-2 border-0 bg-light">
+                            <option value="vi-vn">
+                                VN
+                            </option>
+                        </select>
+                        <span class="d-none d-lg-inline-block d-md-inline-block d-sm-inline-block d-xs-none me-2">
+                            <i class="bi bi-envelope"></i>
+                            <strong>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=shimex@support.com"
+                                   class="text-dark" target="_blank">
+                                    shimex@support.com
+                                </a>
+                            </strong>
+                        </span>
+                        <span class="me-3">
+                            <i class="bi bi-telephone me-1 dark"></i>
+                            <strong class="contact-number">
+                                033-9140-906
+                            </strong>
+                        </span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-none d-lg-block d-md-block-d-sm-block d-xs-none text-end">
+                        <span class="me-3 facebook text-primary">
+                            <i class="bi bi-facebook me-1"></i>
+                            <a class="text-primary" href="#">
+                                Facebook
+                            </a>
+                        </span>
+                        <span class="me-3 instagarm text-danger">
+                            <i class="bi bi-instagram me-1"></i>
+                            <a class="text-danger" href="#">
+                                Instagram
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light p-3 shadow-sm">
+            <div class="container">
+                <a class="navbar-brand text-danger" href="#">
+                    <i class="bi bi-brilliance me-2"></i>
+                    <strong>
+                        SHRIMEX
+                    </strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link mx-2 text-uppercase active" aria-current="page" href="#">
+                                <i class="bi bi-house-fill me-1"></i>
+                                Trang chủ
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link mx-2 text-uppercase" href="#">
+                                <i class="bi bi-newspaper me-1"></i>
+                                Tin tức & Sự kiện
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 text-uppercase" href="#">
+                                <i class="bi bi-shield-fill me-1"></i>
+                                Dịch bệnh & Phòng chống
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link mx-2 text-uppercase">
+                                <i class="bi bi-chat-square-fill me-1"></i>
+                                Diễn đàn
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link mx-2 text-uppercase">
+                                <i class="bi bi-info-circle-fill me-1"></i>
+                                Chẩn đoán
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link mx-2 text-uppercase dropdown-toggle" href="#" id="accountDropdown"
+                               role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-circle me-2"></i>
+                                TÀI KHOẢN
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="accountDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-credit-card-2-front-fill me-2"></i>
+                                        Thông tin cá nhân
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class=""></i>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-tools me-2"></i>
+                                        Quản lý người dùng
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">
+                                        <i class="bi bi-bookmark-fill me-2"></i>
+                                        Đã lưu
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item text-danger" href="#">
+                                        <i class="bi bi-door-closed me-2"></i>
+                                        Đăng xuất
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -36,9 +148,9 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted" style="bottom: 0ox;">
         <div class="container">
-            &copy; 2024 - ShrimpGuard - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+               <p class="text-danger">Hello</p>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

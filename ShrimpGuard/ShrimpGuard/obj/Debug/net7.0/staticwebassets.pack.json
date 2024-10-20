@@ -5,12 +5,36 @@
       "PackagePath": "staticwebassets\\ShrimpGuard.bundle.scp.css"
     },
     {
+      "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\css\\HomeStyle.css",
+      "PackagePath": "staticwebassets\\css\\HomeStyle.css"
+    },
+    {
       "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\img\\domden.jpg",
+      "PackagePath": "staticwebassets\\img\\domden.jpg"
+    },
+    {
+      "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\img\\domtrang.jpg",
+      "PackagePath": "staticwebassets\\img\\domtrang.jpg"
+    },
+    {
+      "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\img\\hoaitu.jpg",
+      "PackagePath": "staticwebassets\\img\\hoaitu.jpg"
+    },
+    {
+      "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\img\\phantrang.jpg",
+      "PackagePath": "staticwebassets\\img\\phantrang.jpg"
     },
     {
       "Id": "W:\\Manage\\source-da2\\ShrimpGuard\\ShrimpGuard\\wwwroot\\js\\site.js",
